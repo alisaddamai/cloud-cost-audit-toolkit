@@ -1,1 +1,8 @@
-AWS audit scripts and notes used during cloud cost reviews.
+This folder contains simple Python scripts used to audit AWS resources during cost reviews.
+
+Current scripts focus on visibility only and do not make any changes.
+
+ec2_instance_audit.py
+- Lists EC2 instances
+- Shows instance age and state
+- Helps identify long running or forgotten compute resources
